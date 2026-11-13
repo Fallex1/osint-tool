@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OSINT Console</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Keyless OSINT lookup for email, domain, IP, phone and username. Runs entirely in the browser.">
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app" x-data="appState">
+  <header class="topbar">
+    <div class="brand">SENTINEL <span>//osint</span></div>
+    <nav class="nav">
+      <a href="#" class="nav-item active">Search</a>
+      <a href="#" class="nav-item">Cases</a>
+      <a href="#" class="nav-item">Sources</a>
+      <a href="#" class="nav-item">Alerts<span class="alert-dot"></span></a>
+    </nav>
+    <div class="source-count" x-text="sources.length ? okCount + '/' + sources.length + ' sources' : 'keyless'"></div>
+    <div class="avatar">F</div>
+    <div class="tier">free tier</div>
+  </header>
+
+  <section class="query-section">
+    <form class="input-group" @submit.prevent="lookup()">
+      <input class="query-input" type="text" x-model="query" :disabled="loading"
+             placeholder="email, domain, ip, phone or username" aria-label="Query" autocomplete="off" spellcheck="false">
+      <button class="lookup-btn" type="submit" :disabled="loading" x-text="loading ? 'Looking…' : 'Lookup'"></button>
+      <span class="shortcut">enter</span>
+    </form>
+    <div class="type-pills">
+      <template x-for="t in ['email','domain','ip','phone','username']" :key="t">
+        <button type="button" class="type-pill" :class="{active: type===t}" @click="type=t" x-text="t"></button>
+      </template>
+      <span class="error-line" x-show="error" x-text="error"></span>
+    </div>
+  </section>
+
+  <main class="main-content">
+    <aside class="rail">
+      <h2 class="section-head">saved</h2>
+      <ul class="saved-list">
+        <li class="saved-item personal" @click="query='ghostbyte77@gmail.com'; lookup()">gmail · personal</li>
+        <li class="saved-item" @click="query='api.novacraft.dev'; lookup()">nova craft domain</li>
+        <li class="saved-item" @click="query='104.21.44.9'; lookup()">cloudflare ip</li>
+        <li class="saved-item" @click="query='ghostbyte_77'; lookup()">ghostbyte handles</li>
+      </ul>
+      <div class="divider"></div>
+      <h2 class="section-head">sources</h2>
+      <ul class="source-list">
+        <template x-for="s in sources" :key="s.name">
+          <li class="source-item">
+            <span class="src-dot" :class="s.state"></span>
+            <span class="src-name" x-text="s.name"></span>
+            <span class="src-count" x-text="s.state"></span>
+          </li>
+        </template>
+        <li class="source-item" x-show="!sources.length">
+          <span class="src-dot nodata"></span><span class="src-name">idle</span><span class="src-count">—</span>
+        </li>
+      </ul>
+      <div class="divider"></div>
+      <div class="quota-track"><div class="quota-fill"></div></div>
+      <div class="quota-text">no keys · no quota</div>
+    </aside>
+
+    <section class="findings">
+      <div class="findings-head">
+        <h2>findings</h2>
+        <span class="meta" x-text="results.length + (results.length === 1 ? ' record' : ' records') + ' · sorted by confidence'"></span>
+      </div>
+      <div class="col-head">
+        <span>target</span><span>type</span><span>sources</span><span class="r">conf</span>
+      </div>
+      <div class="finding-row" x-show="loading">
+        <span class="target">querying…</span><span></span><span></span><span class="confidence muted">—</span>
+      </div>
+      <template x-for="r in results" :key="r.target + r.chips.join()">
+        <div class="finding-row">
+          <span class="target" :title="r.target" x-text="r.target"></span>
+          <span class="type-label" x-text="r.type"></span>
+          <span class="chips">
+            <template x-for="c in r.chips" :key="c"><span class="chip" x-text="c"></span></template>
+          </span>
+          <span class="confidence" :class="confClass(r.conf)">
+            <span class="conf-percent" x-text="r.conf + '%'"></span>
+            <span class="conf-track"><span class="conf-fill" :style="`width:${r.conf}%`"></span></span>
+          </span>
+        </div>
+      </template>
+      <div class="empty-state" x-show="!results.length && !loading">
+        nothing yet. try
+        <div class="empty-examples">
+          <template x-for="ex in ['ghostbyte77@gmail.com','api.novacraft.dev','104.21.44.9','ghostbyte_77']" :key="ex">
+            <span class="example" @click="query=ex; lookup()" x-text="ex"></span>
+          </template>
+        </div>
+      </div>
+      <div class="show-more">
+        <span class="meta" x-text="loading ? 'working…' : okCount + ' sources ok'"></span>
+        <span class="meta error" x-text="sources.length ? sources.filter(s => s.state !== 'ok').length + ' degraded' : ''"></span>
+      </div>
+      <div class="conf-legend">
+        <span class="legend-item">≥75<span class="legend-bar good"></span></span>
+        <span class="legend-item">50–74<span class="legend-bar warning"></span></span>
+        <span class="legend-item">&lt;50<span class="legend-bar muted"></span></span>
+      </div>
+    </section>
+
+    <aside class="feed">
+      <div class="feed-header"><span class="feed-title">live signals</span></div>
+      <template x-for="l in log" :key="l.t + l.src">
+        <div class="feed-row">
+          <span class="feed-time" x-text="l.t"></span>
+          <span class="feed-src" x-text="l.src"></span>
+          <span class="feed-msg" x-text="l.msg"></span>
+        </div>
+      </template>
+      <div class="feed-row" x-show="!log.length"><span class="feed-msg">idle — run a lookup</span></div>
+    </aside>
+  </main>
+
+  <footer class="statusbar">
+    <span x-text="type + ' → ' + (query || '—')"></span>
+    <span x-text="loading ? 'working…' : (results.length + (results.length === 1 ? ' finding' : ' findings'))"></span>
+    <span class="r">keyless · no tracking · sources verified 2026-11-13</span>
+  </footer>
+
+  <nav class="mobile-tabbar">
+    <button class="tab-item active" type="button">search</button>
+    <button class="tab-item" type="button">cases</button>
+    <button class="tab-item" type="button">sources</button>
+    <button class="tab-item" type="button">alerts</button>
+  </nav>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

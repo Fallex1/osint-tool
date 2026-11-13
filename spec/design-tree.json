@@ -1,0 +1,6191 @@
+[
+ {
+  "id": 784,
+  "name": "01 \u00b7 Desktop \u00b7 Investigation",
+  "type": "FRAME",
+  "x": 0.0,
+  "y": 0.0,
+  "width": 1440.0,
+  "height": 900.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 900.0,
+   "width": 1440.0,
+   "x": 0.0,
+   "y": 0.0
+  }
+ },
+ {
+  "id": 785,
+  "name": "topbar",
+  "type": "RECTANGLE",
+  "x": 0.0,
+  "y": 0.0,
+  "width": 1440.0,
+  "height": 56.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 56.0,
+   "width": 1440.0,
+   "x": 0.0,
+   "y": 0.0
+  }
+ },
+ {
+  "id": 786,
+  "name": "SENTINEL",
+  "type": "TEXT",
+  "x": 24.0,
+  "y": 20.0,
+  "width": 75.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.6",
+  "abs": {
+   "height": 16.0,
+   "width": 75.0,
+   "x": 24.0,
+   "y": 20.0
+  }
+ },
+ {
+  "id": 787,
+  "name": "//osint",
+  "type": "TEXT",
+  "x": 110.0,
+  "y": 21.0,
+  "width": 49.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.6",
+  "abs": {
+   "height": 16.0,
+   "width": 49.0,
+   "x": 110.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 788,
+  "name": "Search",
+  "type": "TEXT",
+  "x": 260.0,
+  "y": 21.0,
+  "width": 44.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 44.0,
+   "x": 260.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 789,
+  "name": "Cases",
+  "type": "TEXT",
+  "x": 344.0,
+  "y": 21.0,
+  "width": 39.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 39.0,
+   "x": 344.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 790,
+  "name": "Sources",
+  "type": "TEXT",
+  "x": 421.0,
+  "y": 21.0,
+  "width": 51.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 51.0,
+   "x": 421.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 791,
+  "name": "Alerts",
+  "type": "TEXT",
+  "x": 512.0,
+  "y": 21.0,
+  "width": 36.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 36.0,
+   "x": 512.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 792,
+  "name": "alert dot",
+  "type": "RECTANGLE",
+  "x": 552.0,
+  "y": 18.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#D97706",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 552.0,
+   "y": 18.0
+  }
+ },
+ {
+  "id": 793,
+  "name": "14/14 sources",
+  "type": "TEXT",
+  "x": 1128.0,
+  "y": 21.0,
+  "width": 79.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 79.0,
+   "x": 1128.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 794,
+  "name": "avatar",
+  "type": "RECTANGLE",
+  "x": 1250.0,
+  "y": 16.0,
+  "width": 24.0,
+  "height": 24.0,
+  "fills": [
+   {
+    "color": "#16202B",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 24.0,
+   "width": 24.0,
+   "x": 1250.0,
+   "y": 16.0
+  }
+ },
+ {
+  "id": 795,
+  "name": "F",
+  "type": "TEXT",
+  "x": 1257.0,
+  "y": 21.0,
+  "width": 7.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 7.0,
+   "x": 1257.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 796,
+  "name": "free tier",
+  "type": "TEXT",
+  "x": 1290.0,
+  "y": 21.0,
+  "width": 45.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 45.0,
+   "x": 1290.0,
+   "y": 21.0
+  }
+ },
+ {
+  "id": 797,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 0.0,
+  "y": 56.0,
+  "width": 1440.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 1440.0,
+   "x": 0.0,
+   "y": 56.0
+  }
+ },
+ {
+  "id": 798,
+  "name": "UNIFIED LOOKUP",
+  "type": "TEXT",
+  "x": 24.0,
+  "y": 84.0,
+  "width": 118.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "2",
+  "abs": {
+   "height": 13.0,
+   "width": 118.0,
+   "x": 24.0,
+   "y": 84.0
+  }
+ },
+ {
+  "id": 799,
+  "name": "query field",
+  "type": "RECTANGLE",
+  "x": 24.0,
+  "y": 108.0,
+  "width": 752.0,
+  "height": 52.0,
+  "fills": [
+   {
+    "color": "#1C2937",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 52.0,
+   "width": 752.0,
+   "x": 24.0,
+   "y": 108.0
+  }
+ },
+ {
+  "id": 800,
+  "name": "ghostbyte77@gmail.com",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 124.0,
+  "width": 176.0,
+  "height": 18.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 15.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 18.0,
+   "width": 176.0,
+   "x": 44.0,
+   "y": 124.0
+  }
+ },
+ {
+  "id": 801,
+  "name": "field underline",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 146.0,
+  "width": 148.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 148.0,
+   "x": 44.0,
+   "y": 146.0
+  }
+ },
+ {
+  "id": 802,
+  "name": "lookup button",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 108.0,
+  "width": 104.0,
+  "height": 52.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 52.0,
+   "width": 104.0,
+   "x": 792.0,
+   "y": 108.0
+  }
+ },
+ {
+  "id": 803,
+  "name": "button tint",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 108.0,
+  "width": 104.0,
+  "height": 52.0,
+  "fills": [
+   {
+    "color": "#132033",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 52.0,
+   "width": 104.0,
+   "x": 792.0,
+   "y": 108.0
+  }
+ },
+ {
+  "id": 804,
+  "name": "Lookup",
+  "type": "TEXT",
+  "x": 818.0,
+  "y": 125.0,
+  "width": 50.0,
+  "height": 17.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 14.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 17.0,
+   "width": 50.0,
+   "x": 818.0,
+   "y": 125.0
+  }
+ },
+ {
+  "id": 805,
+  "name": "\u2318\u23ce",
+  "type": "TEXT",
+  "x": 910.0,
+  "y": 127.0,
+  "width": 24.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#6E8DC0",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 24.0,
+   "x": 910.0,
+   "y": 127.0
+  }
+ },
+ {
+  "id": 806,
+  "name": "type pill",
+  "type": "RECTANGLE",
+  "x": 24.0,
+  "y": 176.0,
+  "width": 57.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 57.0,
+   "x": 24.0,
+   "y": 176.0
+  }
+ },
+ {
+  "id": 807,
+  "name": "email",
+  "type": "TEXT",
+  "x": 35.0,
+  "y": 182.0,
+  "width": 28.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#FFFFFF",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 28.0,
+   "x": 35.0,
+   "y": 182.0
+  }
+ },
+ {
+  "id": 808,
+  "name": "type pill",
+  "type": "RECTANGLE",
+  "x": 89.0,
+  "y": 176.0,
+  "width": 57.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 57.0,
+   "x": 89.0,
+   "y": 176.0
+  }
+ },
+ {
+  "id": 809,
+  "name": "phone",
+  "type": "TEXT",
+  "x": 100.0,
+  "y": 182.0,
+  "width": 33.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 33.0,
+   "x": 100.0,
+   "y": 182.0
+  }
+ },
+ {
+  "id": 810,
+  "name": "type pill",
+  "type": "RECTANGLE",
+  "x": 154.0,
+  "y": 176.0,
+  "width": 64.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 64.0,
+   "x": 154.0,
+   "y": 176.0
+  }
+ },
+ {
+  "id": 811,
+  "name": "domain",
+  "type": "TEXT",
+  "x": 165.0,
+  "y": 182.0,
+  "width": 39.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 39.0,
+   "x": 165.0,
+   "y": 182.0
+  }
+ },
+ {
+  "id": 812,
+  "name": "type pill",
+  "type": "RECTANGLE",
+  "x": 226.0,
+  "y": 176.0,
+  "width": 78.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 78.0,
+   "x": 226.0,
+   "y": 176.0
+  }
+ },
+ {
+  "id": 813,
+  "name": "username",
+  "type": "TEXT",
+  "x": 237.0,
+  "y": 182.0,
+  "width": 52.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 52.0,
+   "x": 237.0,
+   "y": 182.0
+  }
+ },
+ {
+  "id": 814,
+  "name": "type pill",
+  "type": "RECTANGLE",
+  "x": 312.0,
+  "y": 176.0,
+  "width": 36.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 36.0,
+   "x": 312.0,
+   "y": 176.0
+  }
+ },
+ {
+  "id": 815,
+  "name": "ip",
+  "type": "TEXT",
+  "x": 323.0,
+  "y": 182.0,
+  "width": 10.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 10.0,
+   "x": 323.0,
+   "y": 182.0
+  }
+ },
+ {
+  "id": 816,
+  "name": "type pill",
+  "type": "RECTANGLE",
+  "x": 356.0,
+  "y": 176.0,
+  "width": 64.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 64.0,
+   "x": 356.0,
+   "y": 176.0
+  }
+ },
+ {
+  "id": 817,
+  "name": "breach",
+  "type": "TEXT",
+  "x": 367.0,
+  "y": 182.0,
+  "width": 37.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 37.0,
+   "x": 367.0,
+   "y": 182.0
+  }
+ },
+ {
+  "id": 818,
+  "name": "rail",
+  "type": "RECTANGLE",
+  "x": 24.0,
+  "y": 224.0,
+  "width": 208.0,
+  "height": 600.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 600.0,
+   "width": 208.0,
+   "x": 24.0,
+   "y": 224.0
+  }
+ },
+ {
+  "id": 819,
+  "name": "SAVED",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 240.0,
+  "width": 41.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "2",
+  "abs": {
+   "height": 12.0,
+   "width": 41.0,
+   "x": 44.0,
+   "y": 240.0
+  }
+ },
+ {
+  "id": 820,
+  "name": "gmail \u00b7 personal",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 264.0,
+  "width": 90.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 90.0,
+   "x": 44.0,
+   "y": 264.0
+  }
+ },
+ {
+  "id": 821,
+  "name": "telkomsel \u00b7 0812",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 290.0,
+  "width": 92.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 92.0,
+   "x": 44.0,
+   "y": 290.0
+  }
+ },
+ {
+  "id": 822,
+  "name": "nova craft domain",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 316.0,
+  "width": 103.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 103.0,
+   "x": 44.0,
+   "y": 316.0
+  }
+ },
+ {
+  "id": 823,
+  "name": "ghostbyte handles",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 342.0,
+  "width": 105.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 105.0,
+   "x": 44.0,
+   "y": 342.0
+  }
+ },
+ {
+  "id": 824,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 356.0,
+  "width": 168.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 168.0,
+   "x": 44.0,
+   "y": 356.0
+  }
+ },
+ {
+  "id": 825,
+  "name": "SOURCES",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 372.0,
+  "width": 60.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "2",
+  "abs": {
+   "height": 12.0,
+   "width": 60.0,
+   "x": 44.0,
+   "y": 372.0
+  }
+ },
+ {
+  "id": 826,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 396.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 396.0
+  }
+ },
+ {
+  "id": 827,
+  "name": "DNS / DoH",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 392.0,
+  "width": 62.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 62.0,
+   "x": 60.0,
+   "y": 392.0
+  }
+ },
+ {
+  "id": 828,
+  "name": "6",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 392.0,
+  "width": 7.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 7.0,
+   "x": 196.0,
+   "y": 392.0
+  }
+ },
+ {
+  "id": 829,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 426.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 426.0
+  }
+ },
+ {
+  "id": 830,
+  "name": "Gravatar",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 422.0,
+  "width": 49.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 49.0,
+   "x": 60.0,
+   "y": 422.0
+  }
+ },
+ {
+  "id": 831,
+  "name": "1",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 422.0,
+  "width": 5.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 5.0,
+   "x": 196.0,
+   "y": 422.0
+  }
+ },
+ {
+  "id": 832,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 456.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 456.0
+  }
+ },
+ {
+  "id": 833,
+  "name": "HIBP",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 452.0,
+  "width": 28.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 28.0,
+   "x": 60.0,
+   "y": 452.0
+  }
+ },
+ {
+  "id": 834,
+  "name": "1",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 452.0,
+  "width": 5.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 5.0,
+   "x": 196.0,
+   "y": 452.0
+  }
+ },
+ {
+  "id": 835,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 486.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 486.0
+  }
+ },
+ {
+  "id": 836,
+  "name": "crt.sh",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 482.0,
+  "width": 33.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 33.0,
+   "x": 60.0,
+   "y": 482.0
+  }
+ },
+ {
+  "id": 837,
+  "name": "12",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 482.0,
+  "width": 12.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 12.0,
+   "x": 196.0,
+   "y": 482.0
+  }
+ },
+ {
+  "id": 838,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 516.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 516.0
+  }
+ },
+ {
+  "id": 839,
+  "name": "RDAP",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 512.0,
+  "width": 32.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 32.0,
+   "x": 60.0,
+   "y": 512.0
+  }
+ },
+ {
+  "id": 840,
+  "name": "1",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 512.0,
+  "width": 5.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 5.0,
+   "x": 196.0,
+   "y": 512.0
+  }
+ },
+ {
+  "id": 841,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 546.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 546.0
+  }
+ },
+ {
+  "id": 842,
+  "name": "GitHub",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 542.0,
+  "width": 40.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 40.0,
+   "x": 60.0,
+   "y": 542.0
+  }
+ },
+ {
+  "id": 843,
+  "name": "1",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 542.0,
+  "width": 5.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 5.0,
+   "x": 196.0,
+   "y": 542.0
+  }
+ },
+ {
+  "id": 844,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 576.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 576.0
+  }
+ },
+ {
+  "id": 845,
+  "name": "Shodan",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 572.0,
+  "width": 44.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 44.0,
+   "x": 60.0,
+   "y": 572.0
+  }
+ },
+ {
+  "id": 846,
+  "name": "0",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 572.0,
+  "width": 7.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 7.0,
+   "x": 196.0,
+   "y": 572.0
+  }
+ },
+ {
+  "id": 847,
+  "name": "src dot",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 606.0,
+  "width": 6.0,
+  "height": 6.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 6.0,
+   "width": 6.0,
+   "x": 44.0,
+   "y": 606.0
+  }
+ },
+ {
+  "id": 848,
+  "name": "X / Twitter",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 602.0,
+  "width": 59.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 59.0,
+   "x": 60.0,
+   "y": 602.0
+  }
+ },
+ {
+  "id": 849,
+  "name": "1",
+  "type": "TEXT",
+  "x": 196.0,
+  "y": 602.0,
+  "width": 5.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 5.0,
+   "x": 196.0,
+   "y": 602.0
+  }
+ },
+ {
+  "id": 850,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 636.0,
+  "width": 168.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 168.0,
+   "x": 44.0,
+   "y": 636.0
+  }
+ },
+ {
+  "id": 851,
+  "name": "Rate limit 42/60 min",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 652.0,
+  "width": 104.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 104.0,
+   "x": 44.0,
+   "y": 652.0
+  }
+ },
+ {
+  "id": 852,
+  "name": "quota track",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 674.0,
+  "width": 168.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 168.0,
+   "x": 44.0,
+   "y": 674.0
+  }
+ },
+ {
+  "id": 853,
+  "name": "quota fill",
+  "type": "RECTANGLE",
+  "x": 44.0,
+  "y": 674.0,
+  "width": 118.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 118.0,
+   "x": 44.0,
+   "y": 674.0
+  }
+ },
+ {
+  "id": 854,
+  "name": "resets in 12 min",
+  "type": "TEXT",
+  "x": 44.0,
+  "y": 690.0,
+  "width": 81.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 81.0,
+   "x": 44.0,
+   "y": 690.0
+  }
+ },
+ {
+  "id": 855,
+  "name": "FINDINGS",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 240.0,
+  "width": 62.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "2",
+  "abs": {
+   "height": 12.0,
+   "width": 62.0,
+   "x": 256.0,
+   "y": 240.0
+  }
+ },
+ {
+  "id": 856,
+  "name": "8 records \u00b7 sorted by confidence",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 258.0,
+  "width": 170.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 170.0,
+   "x": 256.0,
+   "y": 258.0
+  }
+ },
+ {
+  "id": 857,
+  "name": "1.2s",
+  "type": "TEXT",
+  "x": 1112.0,
+  "y": 258.0,
+  "width": 21.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 21.0,
+   "x": 1112.0,
+   "y": 258.0
+  }
+ },
+ {
+  "id": 858,
+  "name": "TARGET",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 282.0,
+  "width": 47.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.6",
+  "abs": {
+   "height": 12.0,
+   "width": 47.0,
+   "x": 256.0,
+   "y": 282.0
+  }
+ },
+ {
+  "id": 859,
+  "name": "TYPE",
+  "type": "TEXT",
+  "x": 664.0,
+  "y": 282.0,
+  "width": 31.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.6",
+  "abs": {
+   "height": 12.0,
+   "width": 31.0,
+   "x": 664.0,
+   "y": 282.0
+  }
+ },
+ {
+  "id": 860,
+  "name": "SOURCES",
+  "type": "TEXT",
+  "x": 792.0,
+  "y": 282.0,
+  "width": 58.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.6",
+  "abs": {
+   "height": 12.0,
+   "width": 58.0,
+   "x": 792.0,
+   "y": 282.0
+  }
+ },
+ {
+  "id": 861,
+  "name": "CONF",
+  "type": "TEXT",
+  "x": 1010.0,
+  "y": 282.0,
+  "width": 34.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.6",
+  "abs": {
+   "height": 12.0,
+   "width": 34.0,
+   "x": 1010.0,
+   "y": 282.0
+  }
+ },
+ {
+  "id": 862,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 256.0,
+  "y": 300.0,
+  "width": 832.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 832.0,
+   "x": 256.0,
+   "y": 300.0
+  }
+ },
+ {
+  "id": 863,
+  "name": "row active",
+  "type": "RECTANGLE",
+  "x": 248.0,
+  "y": 306.0,
+  "width": 848.0,
+  "height": 60.0,
+  "fills": [
+   {
+    "color": "#16202B",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 60.0,
+   "width": 848.0,
+   "x": 248.0,
+   "y": 306.0
+  }
+ },
+ {
+  "id": 864,
+  "name": "ghostbyte77@gmail.com",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 320.0,
+  "width": 153.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 153.0,
+   "x": 256.0,
+   "y": 320.0
+  }
+ },
+ {
+  "id": 865,
+  "name": "email",
+  "type": "TEXT",
+  "x": 664.0,
+  "y": 322.0,
+  "width": 31.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 31.0,
+   "x": 664.0,
+   "y": 322.0
+  }
+ },
+ {
+  "id": 866,
+  "name": "chip HIBP",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 321.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 792.0,
+   "y": 321.0
+  }
+ },
+ {
+  "id": 867,
+  "name": "HIBP",
+  "type": "TEXT",
+  "x": 800.0,
+  "y": 326.0,
+  "width": 24.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 24.0,
+   "x": 800.0,
+   "y": 326.0
+  }
+ },
+ {
+  "id": 868,
+  "name": "chip Gravatar",
+  "type": "RECTANGLE",
+  "x": 838.0,
+  "y": 321.0,
+  "width": 64.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 64.0,
+   "x": 838.0,
+   "y": 321.0
+  }
+ },
+ {
+  "id": 869,
+  "name": "Gravatar",
+  "type": "TEXT",
+  "x": 846.0,
+  "y": 326.0,
+  "width": 41.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 41.0,
+   "x": 846.0,
+   "y": 326.0
+  }
+ },
+ {
+  "id": 870,
+  "name": "chip GitHub",
+  "type": "RECTANGLE",
+  "x": 908.0,
+  "y": 321.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 908.0,
+   "y": 321.0
+  }
+ },
+ {
+  "id": 871,
+  "name": "GitHub",
+  "type": "TEXT",
+  "x": 916.0,
+  "y": 326.0,
+  "width": 33.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 33.0,
+   "x": 916.0,
+   "y": 326.0
+  }
+ },
+ {
+  "id": 872,
+  "name": "92%",
+  "type": "TEXT",
+  "x": 1010.0,
+  "y": 320.0,
+  "width": 29.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 29.0,
+   "x": 1010.0,
+   "y": 320.0
+  }
+ },
+ {
+  "id": 873,
+  "name": "conf track",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 342.0,
+  "width": 84.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 84.0,
+   "x": 1010.0,
+   "y": 342.0
+  }
+ },
+ {
+  "id": 874,
+  "name": "conf fill",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 342.0,
+  "width": 77.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 77.0,
+   "x": 1010.0,
+   "y": 342.0
+  }
+ },
+ {
+  "id": 875,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 256.0,
+  "y": 362.0,
+  "width": 832.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 832.0,
+   "x": 256.0,
+   "y": 362.0
+  }
+ },
+ {
+  "id": 876,
+  "name": "api.novacraft.dev",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 384.0,
+  "width": 107.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 107.0,
+   "x": 256.0,
+   "y": 384.0
+  }
+ },
+ {
+  "id": 877,
+  "name": "domain",
+  "type": "TEXT",
+  "x": 664.0,
+  "y": 386.0,
+  "width": 42.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 42.0,
+   "x": 664.0,
+   "y": 386.0
+  }
+ },
+ {
+  "id": 878,
+  "name": "chip RDAP",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 385.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 792.0,
+   "y": 385.0
+  }
+ },
+ {
+  "id": 879,
+  "name": "RDAP",
+  "type": "TEXT",
+  "x": 800.0,
+  "y": 390.0,
+  "width": 27.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 27.0,
+   "x": 800.0,
+   "y": 390.0
+  }
+ },
+ {
+  "id": 880,
+  "name": "chip crt.sh",
+  "type": "RECTANGLE",
+  "x": 838.0,
+  "y": 385.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 838.0,
+   "y": 385.0
+  }
+ },
+ {
+  "id": 881,
+  "name": "crt.sh",
+  "type": "TEXT",
+  "x": 846.0,
+  "y": 390.0,
+  "width": 27.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 27.0,
+   "x": 846.0,
+   "y": 390.0
+  }
+ },
+ {
+  "id": 882,
+  "name": "chip DNS",
+  "type": "RECTANGLE",
+  "x": 896.0,
+  "y": 385.0,
+  "width": 34.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 34.0,
+   "x": 896.0,
+   "y": 385.0
+  }
+ },
+ {
+  "id": 883,
+  "name": "DNS",
+  "type": "TEXT",
+  "x": 904.0,
+  "y": 390.0,
+  "width": 22.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 22.0,
+   "x": 904.0,
+   "y": 390.0
+  }
+ },
+ {
+  "id": 884,
+  "name": "81%",
+  "type": "TEXT",
+  "x": 1010.0,
+  "y": 384.0,
+  "width": 27.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 27.0,
+   "x": 1010.0,
+   "y": 384.0
+  }
+ },
+ {
+  "id": 885,
+  "name": "conf track",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 406.0,
+  "width": 84.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 84.0,
+   "x": 1010.0,
+   "y": 406.0
+  }
+ },
+ {
+  "id": 886,
+  "name": "conf fill",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 406.0,
+  "width": 68.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 68.0,
+   "x": 1010.0,
+   "y": 406.0
+  }
+ },
+ {
+  "id": 887,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 256.0,
+  "y": 426.0,
+  "width": 832.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 832.0,
+   "x": 256.0,
+   "y": 426.0
+  }
+ },
+ {
+  "id": 888,
+  "name": "+62 812 3456 7890",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 448.0,
+  "width": 121.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 121.0,
+   "x": 256.0,
+   "y": 448.0
+  }
+ },
+ {
+  "id": 889,
+  "name": "phone",
+  "type": "TEXT",
+  "x": 664.0,
+  "y": 450.0,
+  "width": 36.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 36.0,
+   "x": 664.0,
+   "y": 450.0
+  }
+ },
+ {
+  "id": 890,
+  "name": "chip HIBP",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 449.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 792.0,
+   "y": 449.0
+  }
+ },
+ {
+  "id": 891,
+  "name": "HIBP",
+  "type": "TEXT",
+  "x": 800.0,
+  "y": 454.0,
+  "width": 24.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 24.0,
+   "x": 800.0,
+   "y": 454.0
+  }
+ },
+ {
+  "id": 892,
+  "name": "chip carrier",
+  "type": "RECTANGLE",
+  "x": 838.0,
+  "y": 449.0,
+  "width": 58.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 58.0,
+   "x": 838.0,
+   "y": 449.0
+  }
+ },
+ {
+  "id": 893,
+  "name": "carrier",
+  "type": "TEXT",
+  "x": 846.0,
+  "y": 454.0,
+  "width": 32.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 32.0,
+   "x": 846.0,
+   "y": 454.0
+  }
+ },
+ {
+  "id": 894,
+  "name": "chip Truecaller",
+  "type": "RECTANGLE",
+  "x": 902.0,
+  "y": 449.0,
+  "width": 76.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 76.0,
+   "x": 902.0,
+   "y": 449.0
+  }
+ },
+ {
+  "id": 895,
+  "name": "Truecaller",
+  "type": "TEXT",
+  "x": 910.0,
+  "y": 454.0,
+  "width": 48.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 48.0,
+   "x": 910.0,
+   "y": 454.0
+  }
+ },
+ {
+  "id": 896,
+  "name": "78%",
+  "type": "TEXT",
+  "x": 1010.0,
+  "y": 448.0,
+  "width": 28.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 28.0,
+   "x": 1010.0,
+   "y": 448.0
+  }
+ },
+ {
+  "id": 897,
+  "name": "conf track",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 470.0,
+  "width": 84.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 84.0,
+   "x": 1010.0,
+   "y": 470.0
+  }
+ },
+ {
+  "id": 898,
+  "name": "conf fill",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 470.0,
+  "width": 65.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 65.0,
+   "x": 1010.0,
+   "y": 470.0
+  }
+ },
+ {
+  "id": 899,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 256.0,
+  "y": 490.0,
+  "width": 832.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 832.0,
+   "x": 256.0,
+   "y": 490.0
+  }
+ },
+ {
+  "id": 900,
+  "name": "ghostbyte_77",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 512.0,
+  "width": 83.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 83.0,
+   "x": 256.0,
+   "y": 512.0
+  }
+ },
+ {
+  "id": 901,
+  "name": "username",
+  "type": "TEXT",
+  "x": 664.0,
+  "y": 514.0,
+  "width": 57.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 57.0,
+   "x": 664.0,
+   "y": 514.0
+  }
+ },
+ {
+  "id": 902,
+  "name": "chip GitHub",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 513.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 792.0,
+   "y": 513.0
+  }
+ },
+ {
+  "id": 903,
+  "name": "GitHub",
+  "type": "TEXT",
+  "x": 800.0,
+  "y": 518.0,
+  "width": 33.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 33.0,
+   "x": 800.0,
+   "y": 518.0
+  }
+ },
+ {
+  "id": 904,
+  "name": "chip Reddit",
+  "type": "RECTANGLE",
+  "x": 850.0,
+  "y": 513.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 850.0,
+   "y": 513.0
+  }
+ },
+ {
+  "id": 905,
+  "name": "Reddit",
+  "type": "TEXT",
+  "x": 858.0,
+  "y": 518.0,
+  "width": 31.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 31.0,
+   "x": 858.0,
+   "y": 518.0
+  }
+ },
+ {
+  "id": 906,
+  "name": "chip HN",
+  "type": "RECTANGLE",
+  "x": 908.0,
+  "y": 513.0,
+  "width": 28.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 28.0,
+   "x": 908.0,
+   "y": 513.0
+  }
+ },
+ {
+  "id": 907,
+  "name": "HN",
+  "type": "TEXT",
+  "x": 916.0,
+  "y": 518.0,
+  "width": 15.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 15.0,
+   "x": 916.0,
+   "y": 518.0
+  }
+ },
+ {
+  "id": 908,
+  "name": "64%",
+  "type": "TEXT",
+  "x": 1010.0,
+  "y": 512.0,
+  "width": 30.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 30.0,
+   "x": 1010.0,
+   "y": 512.0
+  }
+ },
+ {
+  "id": 909,
+  "name": "conf track",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 534.0,
+  "width": 84.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 84.0,
+   "x": 1010.0,
+   "y": 534.0
+  }
+ },
+ {
+  "id": 910,
+  "name": "conf fill",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 534.0,
+  "width": 53.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 53.0,
+   "x": 1010.0,
+   "y": 534.0
+  }
+ },
+ {
+  "id": 911,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 256.0,
+  "y": 554.0,
+  "width": 832.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 832.0,
+   "x": 256.0,
+   "y": 554.0
+  }
+ },
+ {
+  "id": 912,
+  "name": "104.21.44.9",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 576.0,
+  "width": 71.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 71.0,
+   "x": 256.0,
+   "y": 576.0
+  }
+ },
+ {
+  "id": 913,
+  "name": "ip",
+  "type": "TEXT",
+  "x": 664.0,
+  "y": 578.0,
+  "width": 11.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 11.0,
+   "x": 664.0,
+   "y": 578.0
+  }
+ },
+ {
+  "id": 914,
+  "name": "chip RDAP",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 577.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 792.0,
+   "y": 577.0
+  }
+ },
+ {
+  "id": 915,
+  "name": "RDAP",
+  "type": "TEXT",
+  "x": 800.0,
+  "y": 582.0,
+  "width": 27.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 27.0,
+   "x": 800.0,
+   "y": 582.0
+  }
+ },
+ {
+  "id": 916,
+  "name": "chip Shodan",
+  "type": "RECTANGLE",
+  "x": 838.0,
+  "y": 577.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 838.0,
+   "y": 577.0
+  }
+ },
+ {
+  "id": 917,
+  "name": "Shodan",
+  "type": "TEXT",
+  "x": 846.0,
+  "y": 582.0,
+  "width": 36.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 36.0,
+   "x": 846.0,
+   "y": 582.0
+  }
+ },
+ {
+  "id": 918,
+  "name": "58%",
+  "type": "TEXT",
+  "x": 1010.0,
+  "y": 576.0,
+  "width": 29.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 29.0,
+   "x": 1010.0,
+   "y": 576.0
+  }
+ },
+ {
+  "id": 919,
+  "name": "conf track",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 598.0,
+  "width": 84.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 84.0,
+   "x": 1010.0,
+   "y": 598.0
+  }
+ },
+ {
+  "id": 920,
+  "name": "conf fill",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 598.0,
+  "width": 48.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 48.0,
+   "x": 1010.0,
+   "y": 598.0
+  }
+ },
+ {
+  "id": 921,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 256.0,
+  "y": 618.0,
+  "width": 832.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 832.0,
+   "x": 256.0,
+   "y": 618.0
+  }
+ },
+ {
+  "id": 922,
+  "name": "ghostbyte77@proton.me",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 640.0,
+  "width": 152.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 152.0,
+   "x": 256.0,
+   "y": 640.0
+  }
+ },
+ {
+  "id": 923,
+  "name": "email",
+  "type": "TEXT",
+  "x": 664.0,
+  "y": 642.0,
+  "width": 31.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 31.0,
+   "x": 664.0,
+   "y": 642.0
+  }
+ },
+ {
+  "id": 924,
+  "name": "chip HIBP",
+  "type": "RECTANGLE",
+  "x": 792.0,
+  "y": 641.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 792.0,
+   "y": 641.0
+  }
+ },
+ {
+  "id": 925,
+  "name": "HIBP",
+  "type": "TEXT",
+  "x": 800.0,
+  "y": 646.0,
+  "width": 24.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 24.0,
+   "x": 800.0,
+   "y": 646.0
+  }
+ },
+ {
+  "id": 926,
+  "name": "chip Gravatar",
+  "type": "RECTANGLE",
+  "x": 838.0,
+  "y": 641.0,
+  "width": 64.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 64.0,
+   "x": 838.0,
+   "y": 641.0
+  }
+ },
+ {
+  "id": 927,
+  "name": "Gravatar",
+  "type": "TEXT",
+  "x": 846.0,
+  "y": 646.0,
+  "width": 41.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 41.0,
+   "x": 846.0,
+   "y": 646.0
+  }
+ },
+ {
+  "id": 928,
+  "name": "51%",
+  "type": "TEXT",
+  "x": 1010.0,
+  "y": 640.0,
+  "width": 26.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 13.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 16.0,
+   "width": 26.0,
+   "x": 1010.0,
+   "y": 640.0
+  }
+ },
+ {
+  "id": 929,
+  "name": "conf track",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 662.0,
+  "width": 84.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 84.0,
+   "x": 1010.0,
+   "y": 662.0
+  }
+ },
+ {
+  "id": 930,
+  "name": "conf fill",
+  "type": "RECTANGLE",
+  "x": 1010.0,
+  "y": 662.0,
+  "width": 42.0,
+  "height": 4.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 4.0,
+   "width": 42.0,
+   "x": 1010.0,
+   "y": 662.0
+  }
+ },
+ {
+  "id": 931,
+  "name": "Show 2 more",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 712.0,
+  "width": 75.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 75.0,
+   "x": 256.0,
+   "y": 712.0
+  }
+ },
+ {
+  "id": 932,
+  "name": "3 sources returned partial data",
+  "type": "TEXT",
+  "x": 368.0,
+  "y": 712.0,
+  "width": 175.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 175.0,
+   "x": 368.0,
+   "y": 712.0
+  }
+ },
+ {
+  "id": 933,
+  "name": "0 errors",
+  "type": "TEXT",
+  "x": 608.0,
+  "y": 712.0,
+  "width": 46.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 46.0,
+   "x": 608.0,
+   "y": 712.0
+  }
+ },
+ {
+  "id": 934,
+  "name": "confidence: \u226575 strong \u00b7 50\u201374 partial \u00b7 <50 weak",
+  "type": "TEXT",
+  "x": 256.0,
+  "y": 736.0,
+  "width": 259.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 259.0,
+   "x": 256.0,
+   "y": 736.0
+  }
+ },
+ {
+  "id": 935,
+  "name": "feed",
+  "type": "RECTANGLE",
+  "x": 1120.0,
+  "y": 224.0,
+  "width": 296.0,
+  "height": 600.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 600.0,
+   "width": 296.0,
+   "x": 1120.0,
+   "y": 224.0
+  }
+ },
+ {
+  "id": 936,
+  "name": "LIVE SIGNALS",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 240.0,
+  "width": 90.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "2",
+  "abs": {
+   "height": 12.0,
+   "width": 90.0,
+   "x": 1140.0,
+   "y": 240.0
+  }
+ },
+ {
+  "id": 937,
+  "name": "pause btn",
+  "type": "RECTANGLE",
+  "x": 1372.0,
+  "y": 236.0,
+  "width": 16.0,
+  "height": 16.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 16.0,
+   "width": 16.0,
+   "x": 1372.0,
+   "y": 236.0
+  }
+ },
+ {
+  "id": 938,
+  "name": "II",
+  "type": "TEXT",
+  "x": 1376.0,
+  "y": 239.0,
+  "width": 5.0,
+  "height": 10.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 8.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 10.0,
+   "width": 5.0,
+   "x": 1376.0,
+   "y": 239.0
+  }
+ },
+ {
+  "id": 939,
+  "name": "14:02",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 266.0,
+  "width": 29.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 29.0,
+   "x": 1140.0,
+   "y": 266.0
+  }
+ },
+ {
+  "id": 940,
+  "name": "crt.sh",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 266.0,
+  "width": 33.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 33.0,
+   "x": 1188.0,
+   "y": 266.0
+  }
+ },
+ {
+  "id": 941,
+  "name": "12 subdomains, 2 new",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 286.0,
+  "width": 116.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 116.0,
+   "x": 1140.0,
+   "y": 286.0
+  }
+ },
+ {
+  "id": 942,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 1140.0,
+  "y": 310.0,
+  "width": 256.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 256.0,
+   "x": 1140.0,
+   "y": 310.0
+  }
+ },
+ {
+  "id": 943,
+  "name": "14:02",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 328.0,
+  "width": 29.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 29.0,
+   "x": 1140.0,
+   "y": 328.0
+  }
+ },
+ {
+  "id": 944,
+  "name": "RDAP",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 328.0,
+  "width": 32.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 32.0,
+   "x": 1188.0,
+   "y": 328.0
+  }
+ },
+ {
+  "id": 945,
+  "name": "registrar verified",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 348.0,
+  "width": 86.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 86.0,
+   "x": 1140.0,
+   "y": 348.0
+  }
+ },
+ {
+  "id": 946,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 1140.0,
+  "y": 372.0,
+  "width": 256.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 256.0,
+   "x": 1140.0,
+   "y": 372.0
+  }
+ },
+ {
+  "id": 947,
+  "name": "14:01",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 390.0,
+  "width": 27.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 27.0,
+   "x": 1140.0,
+   "y": 390.0
+  }
+ },
+ {
+  "id": 948,
+  "name": "HIBP",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 390.0,
+  "width": 28.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 28.0,
+   "x": 1188.0,
+   "y": 390.0
+  }
+ },
+ {
+  "id": 949,
+  "name": "2 breaches \u00b7 gmail",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 410.0,
+  "width": 96.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 96.0,
+   "x": 1140.0,
+   "y": 410.0
+  }
+ },
+ {
+  "id": 950,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 1140.0,
+  "y": 434.0,
+  "width": 256.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 256.0,
+   "x": 1140.0,
+   "y": 434.0
+  }
+ },
+ {
+  "id": 951,
+  "name": "14:01",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 452.0,
+  "width": 27.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 27.0,
+   "x": 1140.0,
+   "y": 452.0
+  }
+ },
+ {
+  "id": 952,
+  "name": "Gravatar",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 452.0,
+  "width": 49.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 49.0,
+   "x": 1188.0,
+   "y": 452.0
+  }
+ },
+ {
+  "id": 953,
+  "name": "profile exists",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 472.0,
+  "width": 67.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 67.0,
+   "x": 1140.0,
+   "y": 472.0
+  }
+ },
+ {
+  "id": 954,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 1140.0,
+  "y": 496.0,
+  "width": 256.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 256.0,
+   "x": 1140.0,
+   "y": 496.0
+  }
+ },
+ {
+  "id": 955,
+  "name": "14:00",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 514.0,
+  "width": 29.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 29.0,
+   "x": 1140.0,
+   "y": 514.0
+  }
+ },
+ {
+  "id": 956,
+  "name": "DNS",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 514.0,
+  "width": 26.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 26.0,
+   "x": 1188.0,
+   "y": 514.0
+  }
+ },
+ {
+  "id": 957,
+  "name": "MX 5 records, SPF ok",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 534.0,
+  "width": 113.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 113.0,
+   "x": 1140.0,
+   "y": 534.0
+  }
+ },
+ {
+  "id": 958,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 1140.0,
+  "y": 558.0,
+  "width": 256.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 256.0,
+   "x": 1140.0,
+   "y": 558.0
+  }
+ },
+ {
+  "id": 959,
+  "name": "13:59",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 576.0,
+  "width": 28.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 28.0,
+   "x": 1140.0,
+   "y": 576.0
+  }
+ },
+ {
+  "id": 960,
+  "name": "GitHub",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 576.0,
+  "width": 40.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 40.0,
+   "x": 1188.0,
+   "y": 576.0
+  }
+ },
+ {
+  "id": 961,
+  "name": "handle claimed 2019",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 596.0,
+  "width": 107.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 107.0,
+   "x": 1140.0,
+   "y": 596.0
+  }
+ },
+ {
+  "id": 962,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 1140.0,
+  "y": 620.0,
+  "width": 256.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 256.0,
+   "x": 1140.0,
+   "y": 620.0
+  }
+ },
+ {
+  "id": 963,
+  "name": "13:58",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 638.0,
+  "width": 28.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 28.0,
+   "x": 1140.0,
+   "y": 638.0
+  }
+ },
+ {
+  "id": 964,
+  "name": "Shodan",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 638.0,
+  "width": 44.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 44.0,
+   "x": 1188.0,
+   "y": 638.0
+  }
+ },
+ {
+  "id": 965,
+  "name": "no open ports",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 658.0,
+  "width": 73.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 73.0,
+   "x": 1140.0,
+   "y": 658.0
+  }
+ },
+ {
+  "id": 966,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 1140.0,
+  "y": 682.0,
+  "width": 256.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 256.0,
+   "x": 1140.0,
+   "y": 682.0
+  }
+ },
+ {
+  "id": 967,
+  "name": "13:57",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 700.0,
+  "width": 28.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 28.0,
+   "x": 1140.0,
+   "y": 700.0
+  }
+ },
+ {
+  "id": 968,
+  "name": "X",
+  "type": "TEXT",
+  "x": 1188.0,
+  "y": 700.0,
+  "width": 9.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 9.0,
+   "x": 1188.0,
+   "y": 700.0
+  }
+ },
+ {
+  "id": 969,
+  "name": "1 matching handle",
+  "type": "TEXT",
+  "x": 1140.0,
+  "y": 720.0,
+  "width": 94.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 94.0,
+   "x": 1140.0,
+   "y": 720.0
+  }
+ },
+ {
+  "id": 970,
+  "name": "statusbar",
+  "type": "RECTANGLE",
+  "x": 0.0,
+  "y": 876.0,
+  "width": 1440.0,
+  "height": 24.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 24.0,
+   "width": 1440.0,
+   "x": 0.0,
+   "y": 876.0
+  }
+ },
+ {
+  "id": 971,
+  "name": "keyless sources only \u00b7 nothing stored server-side",
+  "type": "TEXT",
+  "x": 24.0,
+  "y": 882.0,
+  "width": 256.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 256.0,
+   "x": 24.0,
+   "y": 882.0
+  }
+ },
+ {
+  "id": 972,
+  "name": "0 API keys",
+  "type": "TEXT",
+  "x": 1180.0,
+  "y": 882.0,
+  "width": 55.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 55.0,
+   "x": 1180.0,
+   "y": 882.0
+  }
+ },
+ {
+  "id": 973,
+  "name": "02 \u00b7 Mobile \u00b7 Investigation",
+  "type": "FRAME",
+  "x": 1520.0,
+  "y": 0.0,
+  "width": 390.0,
+  "height": 844.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 844.0,
+   "width": 390.0,
+   "x": 1520.0,
+   "y": 0.0
+  }
+ },
+ {
+  "id": 974,
+  "name": "topbar mobile",
+  "type": "RECTANGLE",
+  "x": 0.0,
+  "y": 0.0,
+  "width": 390.0,
+  "height": 52.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 52.0,
+   "width": 390.0,
+   "x": 1520.0,
+   "y": 0.0
+  }
+ },
+ {
+  "id": 975,
+  "name": "SENTINEL",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 18.0,
+  "width": 68.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.4",
+  "abs": {
+   "height": 15.0,
+   "width": 68.0,
+   "x": 1536.0,
+   "y": 18.0
+  }
+ },
+ {
+  "id": 976,
+  "name": "//osint",
+  "type": "TEXT",
+  "x": 96.0,
+  "y": 19.0,
+  "width": 42.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "1.4",
+  "abs": {
+   "height": 13.0,
+   "width": 42.0,
+   "x": 1616.0,
+   "y": 19.0
+  }
+ },
+ {
+  "id": 977,
+  "name": "avatar mobile",
+  "type": "RECTANGLE",
+  "x": 346.0,
+  "y": 14.0,
+  "width": 24.0,
+  "height": 24.0,
+  "fills": [
+   {
+    "color": "#16202B",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 24.0,
+   "width": 24.0,
+   "x": 1866.0,
+   "y": 14.0
+  }
+ },
+ {
+  "id": 978,
+  "name": "F",
+  "type": "TEXT",
+  "x": 353.0,
+  "y": 19.0,
+  "width": 6.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 6.0,
+   "x": 1873.0,
+   "y": 19.0
+  }
+ },
+ {
+  "id": 979,
+  "name": "query mobile",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 72.0,
+  "width": 270.0,
+  "height": 44.0,
+  "fills": [
+   {
+    "color": "#1C2937",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 44.0,
+   "width": 270.0,
+   "x": 1536.0,
+   "y": 72.0
+  }
+ },
+ {
+  "id": 980,
+  "name": "ghostbyte77@gmail\u2026",
+  "type": "TEXT",
+  "x": 30.0,
+  "y": 86.0,
+  "width": 123.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 123.0,
+   "x": 1550.0,
+   "y": 86.0
+  }
+ },
+ {
+  "id": 981,
+  "name": "field underline mobile",
+  "type": "RECTANGLE",
+  "x": 30.0,
+  "y": 106.0,
+  "width": 96.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 96.0,
+   "x": 1550.0,
+   "y": 106.0
+  }
+ },
+ {
+  "id": 982,
+  "name": "go mobile",
+  "type": "RECTANGLE",
+  "x": 294.0,
+  "y": 72.0,
+  "width": 80.0,
+  "height": 44.0,
+  "fills": [
+   {
+    "color": "#132033",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 44.0,
+   "width": 80.0,
+   "x": 1814.0,
+   "y": 72.0
+  }
+ },
+ {
+  "id": 983,
+  "name": "Lookup",
+  "type": "TEXT",
+  "x": 316.0,
+  "y": 86.0,
+  "width": 43.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 43.0,
+   "x": 1836.0,
+   "y": 86.0
+  }
+ },
+ {
+  "id": 984,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 128.0,
+  "width": 55.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 55.0,
+   "x": 1536.0,
+   "y": 128.0
+  }
+ },
+ {
+  "id": 985,
+  "name": "email",
+  "type": "TEXT",
+  "x": 26.0,
+  "y": 134.0,
+  "width": 28.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#FFFFFF",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 28.0,
+   "x": 1546.0,
+   "y": 134.0
+  }
+ },
+ {
+  "id": 986,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 79.0,
+  "y": 128.0,
+  "width": 55.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 55.0,
+   "x": 1599.0,
+   "y": 128.0
+  }
+ },
+ {
+  "id": 987,
+  "name": "phone",
+  "type": "TEXT",
+  "x": 89.0,
+  "y": 134.0,
+  "width": 33.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 33.0,
+   "x": 1609.0,
+   "y": 134.0
+  }
+ },
+ {
+  "id": 988,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 142.0,
+  "y": 128.0,
+  "width": 62.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 62.0,
+   "x": 1662.0,
+   "y": 128.0
+  }
+ },
+ {
+  "id": 989,
+  "name": "domain",
+  "type": "TEXT",
+  "x": 152.0,
+  "y": 134.0,
+  "width": 39.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 39.0,
+   "x": 1672.0,
+   "y": 134.0
+  }
+ },
+ {
+  "id": 990,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 212.0,
+  "y": 128.0,
+  "width": 48.0,
+  "height": 26.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 26.0,
+   "width": 48.0,
+   "x": 1732.0,
+   "y": 128.0
+  }
+ },
+ {
+  "id": 991,
+  "name": "user",
+  "type": "TEXT",
+  "x": 222.0,
+  "y": 134.0,
+  "width": 23.0,
+  "height": 13.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 11.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 13.0,
+   "width": 23.0,
+   "x": 1742.0,
+   "y": 134.0
+  }
+ },
+ {
+  "id": 992,
+  "name": "FINDINGS \u00b7 8",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 172.0,
+  "width": 85.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "2",
+  "abs": {
+   "height": 12.0,
+   "width": 85.0,
+   "x": 1536.0,
+   "y": 172.0
+  }
+ },
+ {
+  "id": 993,
+  "name": "1.2s",
+  "type": "TEXT",
+  "x": 318.0,
+  "y": 172.0,
+  "width": 19.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 19.0,
+   "x": 1838.0,
+   "y": 172.0
+  }
+ },
+ {
+  "id": 994,
+  "name": "row active mobile",
+  "type": "RECTANGLE",
+  "x": 8.0,
+  "y": 190.0,
+  "width": 374.0,
+  "height": 80.0,
+  "fills": [
+   {
+    "color": "#16202B",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 80.0,
+   "width": 374.0,
+   "x": 1528.0,
+   "y": 190.0
+  }
+ },
+ {
+  "id": 995,
+  "name": "ghostbyte77@gmail.com",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 204.0,
+  "width": 141.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 141.0,
+   "x": 1536.0,
+   "y": 204.0
+  }
+ },
+ {
+  "id": 996,
+  "name": "email",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 224.0,
+  "width": 26.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 26.0,
+   "x": 1536.0,
+   "y": 224.0
+  }
+ },
+ {
+  "id": 997,
+  "name": "chip HIBP",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 244.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 1536.0,
+   "y": 244.0
+  }
+ },
+ {
+  "id": 998,
+  "name": "HIBP",
+  "type": "TEXT",
+  "x": 24.0,
+  "y": 249.0,
+  "width": 21.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 21.0,
+   "x": 1544.0,
+   "y": 249.0
+  }
+ },
+ {
+  "id": 999,
+  "name": "chip Gravatar",
+  "type": "RECTANGLE",
+  "x": 62.0,
+  "y": 244.0,
+  "width": 64.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 64.0,
+   "x": 1582.0,
+   "y": 244.0
+  }
+ },
+ {
+  "id": 1000,
+  "name": "Gravatar",
+  "type": "TEXT",
+  "x": 70.0,
+  "y": 249.0,
+  "width": 37.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 37.0,
+   "x": 1590.0,
+   "y": 249.0
+  }
+ },
+ {
+  "id": 1001,
+  "name": "92%",
+  "type": "TEXT",
+  "x": 296.0,
+  "y": 204.0,
+  "width": 27.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 27.0,
+   "x": 1816.0,
+   "y": 204.0
+  }
+ },
+ {
+  "id": 1002,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 226.0,
+  "width": 72.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 72.0,
+   "x": 1816.0,
+   "y": 226.0
+  }
+ },
+ {
+  "id": 1003,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 226.0,
+  "width": 66.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 66.0,
+   "x": 1816.0,
+   "y": 226.0
+  }
+ },
+ {
+  "id": 1004,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 262.0,
+  "width": 358.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 358.0,
+   "x": 1536.0,
+   "y": 262.0
+  }
+ },
+ {
+  "id": 1005,
+  "name": "api.novacraft.dev",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 290.0,
+  "width": 99.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 99.0,
+   "x": 1536.0,
+   "y": 290.0
+  }
+ },
+ {
+  "id": 1006,
+  "name": "domain",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 310.0,
+  "width": 35.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 35.0,
+   "x": 1536.0,
+   "y": 310.0
+  }
+ },
+ {
+  "id": 1007,
+  "name": "chip RDAP",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 330.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 1536.0,
+   "y": 330.0
+  }
+ },
+ {
+  "id": 1008,
+  "name": "RDAP",
+  "type": "TEXT",
+  "x": 24.0,
+  "y": 335.0,
+  "width": 24.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 24.0,
+   "x": 1544.0,
+   "y": 335.0
+  }
+ },
+ {
+  "id": 1009,
+  "name": "chip crt.sh",
+  "type": "RECTANGLE",
+  "x": 62.0,
+  "y": 330.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 1582.0,
+   "y": 330.0
+  }
+ },
+ {
+  "id": 1010,
+  "name": "crt.sh",
+  "type": "TEXT",
+  "x": 70.0,
+  "y": 335.0,
+  "width": 25.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 25.0,
+   "x": 1590.0,
+   "y": 335.0
+  }
+ },
+ {
+  "id": 1011,
+  "name": "81%",
+  "type": "TEXT",
+  "x": 296.0,
+  "y": 290.0,
+  "width": 25.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 25.0,
+   "x": 1816.0,
+   "y": 290.0
+  }
+ },
+ {
+  "id": 1012,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 312.0,
+  "width": 72.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 72.0,
+   "x": 1816.0,
+   "y": 312.0
+  }
+ },
+ {
+  "id": 1013,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 312.0,
+  "width": 58.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 58.0,
+   "x": 1816.0,
+   "y": 312.0
+  }
+ },
+ {
+  "id": 1014,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 348.0,
+  "width": 358.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 358.0,
+   "x": 1536.0,
+   "y": 348.0
+  }
+ },
+ {
+  "id": 1015,
+  "name": "+62 812 3456 7890",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 376.0,
+  "width": 112.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 112.0,
+   "x": 1536.0,
+   "y": 376.0
+  }
+ },
+ {
+  "id": 1016,
+  "name": "phone",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 396.0,
+  "width": 30.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 30.0,
+   "x": 1536.0,
+   "y": 396.0
+  }
+ },
+ {
+  "id": 1017,
+  "name": "chip HIBP",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 416.0,
+  "width": 40.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 40.0,
+   "x": 1536.0,
+   "y": 416.0
+  }
+ },
+ {
+  "id": 1018,
+  "name": "HIBP",
+  "type": "TEXT",
+  "x": 24.0,
+  "y": 421.0,
+  "width": 21.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 21.0,
+   "x": 1544.0,
+   "y": 421.0
+  }
+ },
+ {
+  "id": 1019,
+  "name": "chip carrier",
+  "type": "RECTANGLE",
+  "x": 62.0,
+  "y": 416.0,
+  "width": 58.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 58.0,
+   "x": 1582.0,
+   "y": 416.0
+  }
+ },
+ {
+  "id": 1020,
+  "name": "carrier",
+  "type": "TEXT",
+  "x": 70.0,
+  "y": 421.0,
+  "width": 29.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 29.0,
+   "x": 1590.0,
+   "y": 421.0
+  }
+ },
+ {
+  "id": 1021,
+  "name": "78%",
+  "type": "TEXT",
+  "x": 296.0,
+  "y": 376.0,
+  "width": 26.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 26.0,
+   "x": 1816.0,
+   "y": 376.0
+  }
+ },
+ {
+  "id": 1022,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 398.0,
+  "width": 72.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 72.0,
+   "x": 1816.0,
+   "y": 398.0
+  }
+ },
+ {
+  "id": 1023,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 398.0,
+  "width": 56.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#3FB950",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 56.0,
+   "x": 1816.0,
+   "y": 398.0
+  }
+ },
+ {
+  "id": 1024,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 434.0,
+  "width": 358.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 358.0,
+   "x": 1536.0,
+   "y": 434.0
+  }
+ },
+ {
+  "id": 1025,
+  "name": "ghostbyte_77",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 462.0,
+  "width": 77.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8EEF6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 77.0,
+   "x": 1536.0,
+   "y": 462.0
+  }
+ },
+ {
+  "id": 1026,
+  "name": "username",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 482.0,
+  "width": 48.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 48.0,
+   "x": 1536.0,
+   "y": 482.0
+  }
+ },
+ {
+  "id": 1027,
+  "name": "chip GitHub",
+  "type": "RECTANGLE",
+  "x": 16.0,
+  "y": 502.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 1536.0,
+   "y": 502.0
+  }
+ },
+ {
+  "id": 1028,
+  "name": "GitHub",
+  "type": "TEXT",
+  "x": 24.0,
+  "y": 507.0,
+  "width": 30.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 30.0,
+   "x": 1544.0,
+   "y": 507.0
+  }
+ },
+ {
+  "id": 1029,
+  "name": "chip Reddit",
+  "type": "RECTANGLE",
+  "x": 74.0,
+  "y": 502.0,
+  "width": 52.0,
+  "height": 20.0,
+  "fills": [
+   {
+    "color": "#0B0F14",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 20.0,
+   "width": 52.0,
+   "x": 1594.0,
+   "y": 502.0
+  }
+ },
+ {
+  "id": 1030,
+  "name": "Reddit",
+  "type": "TEXT",
+  "x": 82.0,
+  "y": 507.0,
+  "width": 28.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 28.0,
+   "x": 1602.0,
+   "y": 507.0
+  }
+ },
+ {
+  "id": 1031,
+  "name": "64%",
+  "type": "TEXT",
+  "x": 296.0,
+  "y": 462.0,
+  "width": 27.0,
+  "height": 15.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 12.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 15.0,
+   "width": 27.0,
+   "x": 1816.0,
+   "y": 462.0
+  }
+ },
+ {
+  "id": 1032,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 484.0,
+  "width": 72.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 72.0,
+   "x": 1816.0,
+   "y": 484.0
+  }
+ },
+ {
+  "id": 1033,
+  "name": "rect",
+  "type": "RECTANGLE",
+  "x": 296.0,
+  "y": 484.0,
+  "width": 46.0,
+  "height": 3.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 3.0,
+   "width": 46.0,
+   "x": 1816.0,
+   "y": 484.0
+  }
+ },
+ {
+  "id": 1034,
+  "name": "Show 4 more",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 556.0,
+  "width": 63.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 63.0,
+   "x": 1536.0,
+   "y": 556.0
+  }
+ },
+ {
+  "id": 1035,
+  "name": "3 partial",
+  "type": "TEXT",
+  "x": 104.0,
+  "y": 556.0,
+  "width": 39.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#E8A33D",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 39.0,
+   "x": 1624.0,
+   "y": 556.0
+  }
+ },
+ {
+  "id": 1036,
+  "name": "LIVE SIGNALS",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 590.0,
+  "width": 90.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "2",
+  "abs": {
+   "height": 12.0,
+   "width": 90.0,
+   "x": 1536.0,
+   "y": 590.0
+  }
+ },
+ {
+  "id": 1037,
+  "name": "14:02",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 614.0,
+  "width": 26.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 26.0,
+   "x": 1536.0,
+   "y": 614.0
+  }
+ },
+ {
+  "id": 1038,
+  "name": "crt.sh \u00b7 12 subdomains, 2 new",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 614.0,
+  "width": 141.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 141.0,
+   "x": 1580.0,
+   "y": 614.0
+  }
+ },
+ {
+  "id": 1039,
+  "name": "14:01",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 640.0,
+  "width": 24.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 24.0,
+   "x": 1536.0,
+   "y": 640.0
+  }
+ },
+ {
+  "id": 1040,
+  "name": "HIBP \u00b7 2 breaches \u00b7 gmail",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 640.0,
+  "width": 119.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 119.0,
+   "x": 1580.0,
+   "y": 640.0
+  }
+ },
+ {
+  "id": 1041,
+  "name": "14:00",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 666.0,
+  "width": 27.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 27.0,
+   "x": 1536.0,
+   "y": 666.0
+  }
+ },
+ {
+  "id": 1042,
+  "name": "DNS \u00b7 MX 5 records, SPF ok",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 666.0,
+  "width": 132.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 132.0,
+   "x": 1580.0,
+   "y": 666.0
+  }
+ },
+ {
+  "id": 1043,
+  "name": "13:59",
+  "type": "TEXT",
+  "x": 16.0,
+  "y": 692.0,
+  "width": 26.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 26.0,
+   "x": 1536.0,
+   "y": 692.0
+  }
+ },
+ {
+  "id": 1044,
+  "name": "GitHub \u00b7 handle claimed 2019",
+  "type": "TEXT",
+  "x": 60.0,
+  "y": 692.0,
+  "width": 139.0,
+  "height": 12.0,
+  "fills": [
+   {
+    "color": "#9AABBD",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 10.0,
+  "fontFamily": "Fira Code",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 12.0,
+   "width": 139.0,
+   "x": 1580.0,
+   "y": 692.0
+  }
+ },
+ {
+  "id": 1045,
+  "name": "tabbar",
+  "type": "RECTANGLE",
+  "x": 0.0,
+  "y": 780.0,
+  "width": 390.0,
+  "height": 64.0,
+  "fills": [
+   {
+    "color": "#111821",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 64.0,
+   "width": 390.0,
+   "x": 1520.0,
+   "y": 780.0
+  }
+ },
+ {
+  "id": 1046,
+  "name": "divider",
+  "type": "RECTANGLE",
+  "x": 0.0,
+  "y": 780.0,
+  "width": 390.0,
+  "height": 1.0,
+  "fills": [
+   {
+    "color": "#1E2A35",
+    "type": "solid"
+   }
+  ],
+  "abs": {
+   "height": 1.0,
+   "width": 390.0,
+   "x": 1520.0,
+   "y": 780.0
+  }
+ },
+ {
+  "id": 1047,
+  "name": "\u2315",
+  "type": "TEXT",
+  "x": 28.0,
+  "y": 796.0,
+  "width": 9.0,
+  "height": 17.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 14.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 17.0,
+   "width": 9.0,
+   "x": 1548.0,
+   "y": 796.0
+  }
+ },
+ {
+  "id": 1048,
+  "name": "Search",
+  "type": "TEXT",
+  "x": 22.0,
+  "y": 814.0,
+  "width": 30.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#3B82F6",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 30.0,
+   "x": 1542.0,
+   "y": 814.0
+  }
+ },
+ {
+  "id": 1049,
+  "name": "\u25a4",
+  "type": "TEXT",
+  "x": 118.0,
+  "y": 796.0,
+  "width": 14.0,
+  "height": 17.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 14.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 17.0,
+   "width": 14.0,
+   "x": 1638.0,
+   "y": 796.0
+  }
+ },
+ {
+  "id": 1050,
+  "name": "Cases",
+  "type": "TEXT",
+  "x": 112.0,
+  "y": 814.0,
+  "width": 27.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 27.0,
+   "x": 1632.0,
+   "y": 814.0
+  }
+ },
+ {
+  "id": 1051,
+  "name": "\u25c8",
+  "type": "TEXT",
+  "x": 208.0,
+  "y": 796.0,
+  "width": 11.0,
+  "height": 17.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 14.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 17.0,
+   "width": 11.0,
+   "x": 1728.0,
+   "y": 796.0
+  }
+ },
+ {
+  "id": 1052,
+  "name": "Sources",
+  "type": "TEXT",
+  "x": 202.0,
+  "y": 814.0,
+  "width": 35.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 35.0,
+   "x": 1722.0,
+   "y": 814.0
+  }
+ },
+ {
+  "id": 1053,
+  "name": "\u25d4",
+  "type": "TEXT",
+  "x": 298.0,
+  "y": 796.0,
+  "width": 13.0,
+  "height": 17.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 14.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 17.0,
+   "width": 13.0,
+   "x": 1818.0,
+   "y": 796.0
+  }
+ },
+ {
+  "id": 1054,
+  "name": "Alerts",
+  "type": "TEXT",
+  "x": 292.0,
+  "y": 814.0,
+  "width": 25.0,
+  "height": 11.0,
+  "fills": [
+   {
+    "color": "#8A9AAC",
+    "type": "solid"
+   }
+  ],
+  "fontSize": 9.0,
+  "fontFamily": "Fira Sans",
+  "letterSpacing": "0%",
+  "abs": {
+   "height": 11.0,
+   "width": 25.0,
+   "x": 1812.0,
+   "y": 814.0
+  }
+ }
+]
