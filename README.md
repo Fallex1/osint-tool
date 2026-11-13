@@ -22,10 +22,8 @@ Confidence = how many independent sources agreed. A failed source lowers it and 
 
 ## Run
 
-```sh
-python3 -m http.server 8099
-node check.js          # type-detection self-check
-```
+
+
 
 No install, no dependencies.
 
